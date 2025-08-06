@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Incredible India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="./HomePage.html" target="_blank">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./culture.html" target="_blank">Culture</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./landmark.html" target="_blank">Landmark</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./cuisine_page.html" target="_blank">Cuisine</a></li>
+                    <li class="nav-item"><a class="nav-link active bg-dark px-3 rounded" href="./contactus.html" target="_blank">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="bg-info p-4 rounded text-center mb-4">
+            <h1 class="text-dark">Contact Us</h1>
+            <p class="lead">Please fill out the form below for any inquiries or to register as student</p>
+        </div>
+
+        <div class="card shadow p-4 mb-5 bg-white rounded">
+            <h3 class="text-warning mb-4">Student Registration Form</h3>
+            <form action="">
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="fname" class="form-label">First Name:</label>
+                        <input type="text" class="form-control" placeholder="Enter your first name" name="fname" id="fname">
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="pass" class="form-label">Password:</label>
+                        <input type="password" class="form-control" name="pass" id="pass">
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label class="form-label">Gender:</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Gender" value="male" id="male">
+                            <label class="form-check-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="Gender" value="fmale" id="fmale">
+                            <label class="form-check-label" for="fmale">Female</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="sub" value="Subscribe" checked>
+                            <label class="form-check-label" for="sub">Subscribe to Newsletter</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="state" class="form-label">State:</label>
+                        <select class="form-select" name="state" id="state">
+                            <option value="select" disabled selected>Select your State</option>
+                            <option value="Gujarat">Gujarat</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="rajasthan">Rajasthan</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label class="form-label">Upload Resume:</label>
+                        <input type="file" class="form-control">
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="address" class="form-label">Address:</label>
+                        <textarea class="form-control" name="address" id="address" rows="3"></textarea>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="dob" class="form-label">Date of Birth:</label>
+                        <input type="date" class="form-control" name="dob" id="dob">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="time" class="form-label">Interview time:</label>
+                        <input type="time" class="form-control" id="time">
+                    </div>
+                </div>
+                
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <label for="marks" class="form-label">Marks:</label>
+                        <input type="text" class="form-control" name="marks" id="marks">
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center gap-3">
+                        <button type="submit" class="btn btn-success px-4">Submit</button>
+                        <button type="reset" class="btn btn-danger px-4">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="card shadow p-4 mb-5 bg-white rounded">
+            <h3 class="text-warning mb-3">More Information</h3>
+            <p class="mb-4">Explore Government job opportunities on the official OJAS website.</p>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://ojas.gujarat.gov.in/" frameborder="0" class="rounded"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <a href="./HomePage.html" class="text-info" target="_parent">Back to Home</a>
+            <p class="my-3">Contact us at <a href="mailto:info@incredibleindia.com" class="text-info">info@incredibleindia.com</a></p>
+            <p class="mb-0">&copy; 2025 Incredible India Project</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
